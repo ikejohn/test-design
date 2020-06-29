@@ -1,0 +1,144 @@
+
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 42, 119);
+
+}
+
+header {
+    margin: 0;
+    padding: 0;
+   
+    background-color: teal;
+   
+}
+
+
+
+ .flexcontainer {
+    display: flex;
+   
+    margin: 0;
+    height: 50px;
+   /* max-width: 100vw;*/
+    text-align: center;
+    
+ }
+
+ nav ul li {
+
+flex-grow: 1;
+padding-top: 8px;
+list-style: none;
+color: silver;
+font-weight: 900;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: x-large;
+
+}
+
+ nav ul li:hover {
+    background-color: yellowgreen;
+}
+
+.formfield {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    background-color: rgb(196, 202, 216);
+    
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   padding-bottom: 20px;
+   } 
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 0 15px;
+    
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+section {
+    display: flex;
+   
+    width: 100vw;
+   
+}
+
+h3 {
+    color: whitesmoke;
+}
+section div {
+    color: turquoise;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 20px;
+   flex-grow: 1;
+   flex-basis: 400px;
+}
+
+#submit {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 0 15px;
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    
+     
+     color: rgb(24, 25, 30) ;
+     font-size:small ;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: flex;
+     justify-content: space-between;
+     margin: 12px;
+     padding: 12px;
+     background-image: url(/home/ambassador/Pictures/world-mineral-map.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-weight: bolder;
+
+
+}
+
+main div ul li {
+    list-style: none;
+}
+main div h3 {
+    color: blue;
+    font-weight: bolder ;
+    font-size: large;
+}
+
+
+#firstdiv{
+   width: 500px;
+
+
+}
+#seconddiv {
+    width: 700px;
+}
